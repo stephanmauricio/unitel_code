@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --tipo-letra: "Nunito", Helvetica, Arial, sans-serif;
+    --verde-escuro: #049A40;
+    --verde-claro: #0BF96A;
+    --rosa-escuro: #E10BF9;
+    --rosa-claro: #F3A0FD;
+    --branco: #fff;
+    --preto: black;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--tipo-letra);
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.menu-bg {
+    background-color: var(--verde-claro);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_logo{
+    margin: 10px;
+}
+
+.nav_lista {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav_link {
+    padding: 20px 10px;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center; 
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+hr {
+    border: none;
+    background-color: var(--rosa-escuro);
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+/*quem somos*/
+
+p {
+    line-height: 21.82px; /*espaçamento entre parágrafo*/
+    padding: 0 10px;
+}
+
+.sessao-titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.somos {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.somos-corpo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.somos-texto {
+    flex: 6 1 160px;
+}
+
+.somos-imagem {
+    flex: 1 1 350px;
+}
